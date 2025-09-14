@@ -1,1 +1,13 @@
+
+/.idea
 *.pyc
+
+/singularity/requirements.txt
+/singularity/setup.py
+/singularity/synister
+/singularity/synister.img
+/singularity/src
+
+/build
+/synister.egg-info
+/src
