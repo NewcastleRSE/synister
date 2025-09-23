@@ -123,7 +123,7 @@ python setup.py build_ext --inplace
 PYTHONPATH=${FUNLIB_LEARN_ROOT}:$PYTHONPATH
 
 # install pytorch
-conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+conda install pytorch=1.10.2 torchvision==0.11.3 cudatoolkit=11.3 -c pytorch
 
 # install synister
 cd /src/synister
