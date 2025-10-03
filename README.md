@@ -30,7 +30,7 @@ useful to train and predict in other datasets.
 
 ### Installation
 
-You need to build a Singularity container and conda environment.
+You need to build a Singularity container and a conda environment.
 
 #### Singularity
 Install [Singularity](https://github.com/sylabs/singularity/blob/main/INSTALL.md) and then run this:
@@ -39,7 +39,7 @@ cd singularity
 make
 ```
 #### Conda
-Create a conda envirnoment with:
+Create a conda environment with:
 ```
 conda create -n synister -c conda-forge -c funkey python numpy scipy cython pylp pytorch-gpu
 conda activate synister
